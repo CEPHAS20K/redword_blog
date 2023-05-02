@@ -5,20 +5,10 @@ const AboutPage = () => {
   return (
     <>
       <MetaTags title="About" description="About page" />
-      <heade>
-        <h>Redwood blog</h>
-        <nav>
-          <ul>
-            <li>
-              <Link to={routes.about()}>About</Link>
-            </li>
-          </ul>
-        </nav>
-      </heade>
-      <main>
-        <p>this is private</p>
-        <Link to={routes.home()}>Return home</Link>
-      </main>
+      <p>
+        This site was created to demonstrate my mastery of Redwood: Look on my
+        works, ye mighty, and despair!
+      </p>
     </>
   )
 }
